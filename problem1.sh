@@ -52,15 +52,9 @@ then
 	done
 done
 
-#dict[even]=${#dict[even]}
-#dict[odd]=${#dict[odd]}
+
 echo "Keys  : ${!dict[@]}"
 echo "Count : ${dict[@]}"
-
-#echo "Array of even factors from factorization :"
-#echo "${arrEven[@]}" 
-#echo "Array of odd factors from factorization  :"
-#echo "${arrOdd[@]}"
 
 else
 	echo "3 digit num required"
